@@ -13,7 +13,7 @@ public class AnimalsCage {
 
     @Autowired
     @Qualifier("dog")
-    private Animal gog;
+    private Animal dog;
 
     @Autowired
     private Timer timer;
